@@ -1,0 +1,12 @@
+# Tests Folder
+
+Global tests validate system behavior.
+
+Structure
+
+e2e
+integration
+
+E2E tests verify full user flows.
+
+Integration tests verify API and service connections.

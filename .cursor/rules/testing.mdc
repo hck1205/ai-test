@@ -1,38 +1,15 @@
 # Testing Rules
 
-All functionality must include tests.
+All features must include tests.
 
-Test Types
+Test types
 
-Unit Test
-Component Test
-Integration Test
-E2E Test
+unit tests
+component tests
+integration tests
+e2e tests
 
----
+New code must not break existing tests.
 
-# Coverage Requirement
-
-Minimum coverage requirements:
-
-Lines: 90%+
-Functions: 90%+
-Branches: 85%+
-Statements: 90%+
-
-Code changes must not be accepted if coverage fails.
-
----
-
-# Test Rules
-
-Every function must have tests.
-
-Feature implementations must include tests.
-
-Tests must run automatically.
-
-Prefer colocated tests:
-
-feature/tests
-component.test.ts
+Global tests live in /tests.
+Feature specific tests live inside feature folders.

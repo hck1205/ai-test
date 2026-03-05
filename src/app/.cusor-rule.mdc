@@ -1,0 +1,11 @@
+# App Layer
+
+The app layer initializes the application.
+
+Responsibilities
+
+routing
+global providers
+application bootstrap
+
+Business logic is not allowed here.

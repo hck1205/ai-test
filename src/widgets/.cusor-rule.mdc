@@ -1,0 +1,13 @@
+# Widgets Layer
+
+Widgets compose UI blocks used on pages.
+
+Widgets may use
+
+features
+entities ui
+shared ui
+
+Widgets must remain UI focused.
+
+Complex business logic is forbidden.

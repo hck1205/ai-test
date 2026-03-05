@@ -1,0 +1,12 @@
+# Pages Layer
+
+Pages represent route entry points.
+
+Responsibilities
+
+define screens
+compose widgets
+
+Pages must not contain business logic.
+
+Pages should only orchestrate widgets.

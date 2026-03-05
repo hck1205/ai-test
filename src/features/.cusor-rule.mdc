@@ -1,0 +1,20 @@
+# Features Layer
+
+Features represent user actions.
+
+Examples
+
+login
+add-to-cart
+checkout
+
+Feature structure
+
+api
+model
+ui
+tests
+
+Business logic belongs in model.
+
+UI must remain thin.

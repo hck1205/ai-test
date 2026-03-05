@@ -1,0 +1,19 @@
+# Code Style
+
+React components must follow this pattern
+
+const ComponentName = () => {}
+
+export default ComponentName
+
+Components must return ReactNode.
+
+Styling rules
+
+Prefer Tailwind CSS.
+
+Use Emotion only when dynamic styling is required.
+
+Avoid inline styles.
+
+Files should be small and focused.

@@ -1,0 +1,24 @@
+# Atomic UI
+
+Shared UI follows Atomic Design.
+
+Atoms
+
+Button
+Input
+Icon
+
+Molecules
+
+SearchInput
+FormField
+
+Organisms
+
+Navbar
+Modal
+Card
+
+Atomic UI must be reusable and stateless whenever possible.
+
+Atomic UI must not contain business logic.
