@@ -1,0 +1,39 @@
+# Code Quality Rules
+
+Code must follow clean code principles.
+
+---
+
+# Function Rules
+
+Functions must:
+
+- have a single responsibility
+- be short and readable
+- contain JSDoc documentation
+
+---
+
+# Naming Rules
+
+Variable names must be descriptive.
+
+Avoid abbreviations.
+
+Good examples:
+
+userEmail
+loginRequest
+productList
+
+Bad examples:
+
+u
+data1
+temp
+
+---
+
+# Readability
+
+Code must prioritize readability over cleverness.

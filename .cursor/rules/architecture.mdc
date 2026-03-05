@@ -1,0 +1,62 @@
+# Architecture Rules (AI Frontend Architecture v3)
+
+The project follows **AI Frontend Architecture v3**.
+
+The architecture separates UI generation and feature logic.
+
+UI is generated using **Atomic Design**.
+Application structure follows **Feature-Sliced Design (FSD)**.
+
+Atomic UI components must be placed in:
+
+shared/ui
+
+Feature logic must be placed in:
+
+features/
+
+Pages must only compose widgets.
+
+Widgets must compose features and entities.
+
+---
+
+# Folder Structure
+
+src
+├ app
+├ pages
+├ widgets
+├ features
+├ entities
+└ shared
+└ ui
+
+---
+
+# Responsibility Separation
+
+Designer
+
+- generates Atomic UI components
+- maintains design system
+
+Developer
+
+- implements feature logic
+- manages state and API
+- maintains application architecture
+
+---
+
+# Important Rules
+
+UI components must not contain business logic.
+
+Feature logic must not be implemented inside shared/ui.
+
+Entities represent domain models.
+
+Widgets compose UI blocks using entities and features.
+
+Pages compose widgets only.
