@@ -1,0 +1,63 @@
+# Atomic Design Rules
+
+UI components follow the **Atomic Design pattern**.
+
+Atoms
+
+Button
+Input
+Icon
+Label
+Text
+
+Atoms must:
+
+- be reusable
+- contain no business logic
+- contain only UI behavior
+
+---
+
+Molecules
+
+Small UI combinations.
+
+Example
+
+SearchInput
+FormField
+
+---
+
+Organisms
+
+Large UI blocks.
+
+Example
+
+Navbar
+Header
+ProductCard
+
+---
+
+Templates
+
+Layout structures.
+
+Example
+
+DashboardLayout
+ProductLayout
+
+---
+
+Pages
+
+Pages contain real data and compose templates or widgets.
+
+---
+
+# Important Rule
+
+Atomic UI components must never contain feature logic.

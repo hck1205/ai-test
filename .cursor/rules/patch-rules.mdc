@@ -1,0 +1,28 @@
+# Patch Rules
+
+AI must generate code changes using small patches.
+
+Allowed operations:
+
+create file
+add function
+add test
+update specific function
+
+---
+
+# Forbidden Operations
+
+Large refactors are not allowed.
+
+Deleting existing code is not allowed unless explicitly requested.
+
+Modifying unrelated files is not allowed.
+
+---
+
+# Patch Size
+
+Patches should modify minimal code.
+
+Prefer incremental changes over large updates.
