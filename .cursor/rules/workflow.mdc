@@ -1,6 +1,6 @@
-# Development Workflow Rules
+# Development Workflow
 
-All code generation must follow **Architecture v3 workflow**.
+All new features must follow the spec driven workflow.
 
 Spec
 ↓
@@ -14,43 +14,12 @@ Dependency Graph
 ↓
 Task Graph
 ↓
-Patch
-↓
-Code
+Code Generation
 ↓
 Validation
 ↓
 Tests
 
----
+AI must not generate implementation code if the spec does not exist.
 
-# Spec First
-
-AI must always read and follow feature specifications before implementing code.
-
-Implementation must not begin without understanding the feature spec.
-
----
-
-# Small Scope Generation
-
-AI must generate code in **small patches**.
-
-Allowed operations:
-
-create file
-update specific function
-add tests
-add documentation
-
-Large refactors are not allowed unless explicitly requested.
-
----
-
-# Patch Rules
-
-Never modify unrelated files.
-
-Never modify existing code unless explicitly requested.
-
-Prefer creating new files over editing many files.
+Specs are stored in /specs.

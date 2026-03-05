@@ -1,0 +1,19 @@
+# Dependency Rules
+
+Allowed dependency direction
+
+pages → widgets
+widgets → features
+features → entities
+entities → shared
+
+Forbidden dependencies
+
+shared → features
+shared → widgets
+entities → features
+entities → widgets
+
+Shared must remain reusable and isolated.
+
+If a dependency violation occurs, code generation must stop.

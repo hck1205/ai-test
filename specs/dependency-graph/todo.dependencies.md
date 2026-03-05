@@ -1,0 +1,9 @@
+todo.api
+↓
+todo.model
+↓
+features/todo/ui
+↓
+widgets/todo-list
+↓
+pages/todo-page

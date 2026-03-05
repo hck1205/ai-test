@@ -1,0 +1,29 @@
+# Specs Folder
+
+The specs directory defines system behavior before code generation.
+
+Folders
+
+features
+state
+ui-tree
+component-graph
+dependency-graph
+task-graph
+
+Each feature must define
+
+feature.spec.md
+feature.state.md
+feature.ui-tree.md
+feature.graph.md
+feature.dependencies.md
+feature.tasks.md
+
+Specs must describe
+
+user flow
+state transitions
+UI structure
+dependencies
+implementation tasks

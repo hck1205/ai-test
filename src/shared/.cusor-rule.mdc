@@ -1,0 +1,12 @@
+# Shared Layer
+
+Shared contains reusable modules.
+
+Folders
+
+ui
+hooks
+lib
+config
+
+Shared must not depend on features, widgets, or pages.

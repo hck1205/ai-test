@@ -1,0 +1,19 @@
+# Entities Layer
+
+Entities represent domain models.
+
+Examples
+
+user
+product
+order
+
+Entity structure
+
+model
+api
+ui
+
+Entities must not implement user actions.
+
+Entities should remain reusable.
